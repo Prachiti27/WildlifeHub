@@ -7,18 +7,49 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Optional npm cache folder
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional testing files
+coverage/
+*.lcov
+
+# Misc
+*.log
