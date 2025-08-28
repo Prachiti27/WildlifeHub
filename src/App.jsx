@@ -8,6 +8,7 @@ import ContactUs from './pages/ContactUs'
 import AboutUs from './pages/AboutUs'
 import SupportUs from './pages/SupportUs'
 import AllSpecies from './pages/AllSpecies'
+import Games from './pages/Games'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/about-us' element={<AboutUs/>}/>
       <Route path='/support-us' element={<SupportUs/>}/>
       <Route path='/animals' element={<AllSpecies/>}/>
+      <Route path='/games' element={<Games/>}/>
     </Routes>
   )
 }

@@ -48,7 +48,7 @@ const Hero = () => {
 
             <div className="relative z-10 flex flex-col items-center justify-center h-screen text-center px-4 md:px-8">
                 <motion.nav
-                    className="absolute top-0 left-0 w-full p-6 flex items-center text-white/80"
+                    className="absolute top-0 left-0 w-full p-6 flex items-center text-white/90"
                     variants={navVariants}
                     initial="hidden"
                     animate="visible"
@@ -59,11 +59,11 @@ const Hero = () => {
                     >
                         WILDLIFE HUB
                     </motion.div>
-                    <div className="ml-auto flex space-x-6 md:space-x-10 text-lg">
+                    <div className="ml-auto flex space-x-6 md:space-x-14 text-lg">
                         {['Live Tracking', 'Species', 'Parks', 'News', 'About'].map((text, i) => (
                             <motion.div key={i} custom={i} variants={linkVariants} initial="hidden" animate="visible">
                                 <Link
-                                    className="hover:underline hover:text-white transition-all duration-300"
+                                    className="hover:underline hover:text-white hover:cursor-pointer transition-all duration-300"
                                     to={
                                         text === 'Live Tracking'
                                             ? '/live-tracking'
@@ -85,7 +85,7 @@ const Hero = () => {
 
                 <div className="flex flex-col items-center gap-6 md:gap-8 mt-12 md:mt-0">
                     <motion.h1
-                        className="text-white text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-wide leading-snug md:leading-tight"
+                        className="text-white text-2xl md:text-4xl lg:text-5xl font-extrabold tracking-wide leading-snug md:leading-tight"
                         variants={headingVariants}
                         initial="hidden"
                         animate="visible"
