@@ -104,14 +104,26 @@ const Hero = () => {
                         variants={buttonVariants}
                         initial="hidden"
                         animate="visible"
+                        className="flex flex-col md:flex-row gap-4 mt-4"
                     >
                         <Link
                             to="/animals"
-                            className="mt-4 inline-flex items-center gap-2 bg-transparent hover:bg-white/20 border border-white text-white font-semibold text-2xl md:text-3xl px-8 py-4 rounded-full transition-all duration-300"
+                            className="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/20 border border-white text-white font-semibold text-2xl md:text-3xl px-8 py-4 rounded-full transition-all duration-300"
                         >
-                            Explore <ArrowRight size={28} />
+                            <span>Explore</span>
+                            <ArrowRight size={28} className="inline-block" />
+                        </Link>
+
+                        <Link
+                            to="/games"
+                            className="inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-[#074240] font-semibold text-2xl md:text-3xl px-8 py-4 rounded-full transition-all duration-300"
+                        >
+                            <span>Games</span>
+                            <ArrowRight size={28} className="inline-block" />
                         </Link>
                     </motion.div>
+
+
                 </div>
             </div>
         </div>
