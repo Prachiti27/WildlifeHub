@@ -48,10 +48,10 @@ const FactsCarasouel = () => {
     }
 
     return (
-        <section className='bg-white py-16'>
-            <div className='max-w-3xl mx-auto px-6 relative'>
+        <section className='bg-white py-16 h-[480px]'>
+            <div className='max-w-6xl mx-auto px-6 relative'>
                 <motion.h2
-                    className='text-3xl font-bold text-[#074240] text-center mb-12'
+                    className='text-3xl font-bold text-[#074240] text-center mb-24'
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
@@ -74,20 +74,20 @@ const FactsCarasouel = () => {
 
                             <motion.button
                                 onClick={prevFact}
-                                className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-6 h-6 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
+                                className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
                             >
-                                <ArrowLeft size={16} />
+                                <ArrowLeft size={28} />
                             </motion.button>
 
                             <motion.button
                                 onClick={nextFact}
-                                className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-6 h-6 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
+                                className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
                             >
-                                <ArrowRight size={16} />
+                                <ArrowRight size={28} />
                             </motion.button>
                         </motion.div>
                     </AnimatePresence>
