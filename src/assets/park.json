@@ -3,105 +3,347 @@
     "id": 1,
     "name": "Jim Corbett National Park",
     "location": "Uttarakhand, India",
-    "famousFor": "Bengal Tigers, leopards, and rich flora",
-    "image": "/park_images/corbett.png"
+    "images": "/park_images/corbett.png",
+    "established": "1936",
+    "habitats": ["Forests", "Grasslands", "Rivers"],
+    "fauna": ["Bengal Tigers", "Leopards", "Elephants", "Deer"],
+    "flora": ["Sal Trees", "Bamboo", "Grass Species"],
+    "best_time_to_visit": "November to June"
   },
   {
     "id": 2,
     "name": "Kaziranga National Park",
     "location": "Assam, India",
-    "famousFor": "One-horned Rhinoceros, swamp deer, migratory birds",
-    "image": "/park_images/kaziranga.png"
+    "images": "/park_images/kaziranga.png",
+    "established": "1905",
+    "habitats": ["Grasslands", "Wetlands", "Forests"],
+    "fauna": ["One-horned Rhinoceros", "Swamp Deer", "Elephants", "Birds"],
+    "flora": ["Bamboo", "Sal Trees", "Riverine Vegetation"],
+    "best_time_to_visit": "November to April"
   },
   {
     "id": 3,
     "name": "Gir National Park",
     "location": "Gujarat, India",
-    "famousFor": "Asiatic Lions, leopards, striped hyenas",
-    "image": "/park_images/gir.png"
+    "images": "/park_images/gir.png",
+    "established": "1965",
+    "habitats": ["Dry Deciduous Forests", "Grasslands"],
+    "fauna": ["Asiatic Lions", "Leopards", "Hyenas", "Deer"],
+    "flora": ["Acacia", "Bamboo", "Teak"],
+    "best_time_to_visit": "December to April"
   },
   {
     "id": 4,
     "name": "Ranthambore National Park",
     "location": "Rajasthan, India",
-    "famousFor": "Royal Bengal Tigers, Ranthambore Fort",
-    "image": "/park_images/ranthambore.png"
+    "images": "/park_images/ranthambore.png",
+    "established": "1980",
+    "habitats": ["Dry Deciduous Forests", "Grasslands", "Lake Areas"],
+    "fauna": ["Royal Bengal Tigers", "Leopards", "Hyenas", "Deer"],
+    "flora": ["Teak", "Acacia", "Shrubs"],
+    "best_time_to_visit": "October to June"
   },
   {
     "id": 5,
     "name": "Sundarbans National Park",
     "location": "West Bengal, India",
-    "famousFor": "Mangrove forests, estuarine crocodiles, tigers",
-    "image": "/park_images/sundarbans.png"
+    "images": "/park_images/sundarbans.png",
+    "established": "1984",
+    "habitats": ["Mangrove Forests", "Estuaries", "Rivers"],
+    "fauna": ["Bengal Tigers", "Saltwater Crocodiles", "Deer", "Birds"],
+    "flora": ["Mangroves", "Aegiceras", "Excoecaria"],
+    "best_time_to_visit": "November to February"
   },
   {
     "id": 6,
     "name": "Kanha National Park",
     "location": "Madhya Pradesh, India",
-    "famousFor": "Swamp Deer (Barasingha), tigers, meadows",
-    "image": "/park_images/kanha.png"
+    "images": "/park_images/kanha.png",
+    "established": "1955",
+    "habitats": ["Sal Forests", "Grasslands", "Water Bodies"],
+    "fauna": ["Swamp Deer", "Tigers", "Leopards", "Elephants"],
+    "flora": ["Sal Trees", "Bamboo", "Grass Species"],
+    "best_time_to_visit": "October to June"
   },
   {
     "id": 7,
     "name": "Bandhavgarh National Park",
     "location": "Madhya Pradesh, India",
-    "famousFor": "Highest density of Bengal Tigers, ancient fort",
-    "image": "/park_images/bandhavgarh.png"
+    "images": "/park_images/bandhavgarh.png",
+    "established": "1968",
+    "habitats": ["Forests", "Grasslands", "Hills"],
+    "fauna": ["Bengal Tigers", "Leopards", "Hyenas", "Deer"],
+    "flora": ["Sal Trees", "Teak", "Bamboo"],
+    "best_time_to_visit": "October to June"
   },
   {
     "id": 8,
     "name": "Pench National Park",
     "location": "Madhya Pradesh/Maharashtra, India",
-    "famousFor": "Inspiration for 'The Jungle Book', tigers, wild dogs",
-    "image": "/park_images/pench.png"
+    "images": "/park_images/pench.png",
+    "established": "1975",
+    "habitats": ["Tropical Forests", "Grasslands", "Rivers"],
+    "fauna": ["Tigers", "Wild Dogs", "Leopards", "Deer"],
+    "flora": ["Teak", "Sal Trees", "Bamboo"],
+    "best_time_to_visit": "October to June"
   },
   {
     "id": 9,
     "name": "Periyar National Park",
     "location": "Kerala, India",
-    "famousFor": "Elephants, Periyar Lake, birdlife",
-    "image": "/park_images/periyar.png"
+    "images": "/park_images/periyar.png",
+    "established": "1982",
+    "habitats": ["Tropical Forests", "Periyar Lake", "Grasslands"],
+    "fauna": ["Elephants", "Tigers", "Leopards", "Birds"],
+    "flora": ["Teak", "Bamboo", "Sal Trees"],
+    "best_time_to_visit": "October to May"
   },
   {
     "id": 10,
     "name": "Nanda Devi National Park",
     "location": "Uttarakhand, India",
-    "famousFor": "Himalayan peaks, alpine flora, snow leopards",
-    "image": "/park_images/nandadevi.png"
+    "images": "/park_images/nandadevi.png",
+    "established": "1982",
+    "habitats": ["Alpine Meadows", "Snow-covered Mountains", "Glaciers"],
+    "fauna": ["Snow Leopards", "Himalayan Tahr", "Musk Deer", "Birds"],
+    "flora": ["Alpine Flowers", "Rhododendrons", "Juniper"],
+    "best_time_to_visit": "May to October"
   },
   {
     "id": 11,
     "name": "Manas National Park",
     "location": "Assam, India",
-    "famousFor": "UNESCO site, elephants, wild water buffalo",
-    "image": "/park_images/manas.png"
+    "images": "/park_images/manas.png",
+    "established": "1928",
+    "habitats": ["Grasslands", "Tropical Forests", "Rivers"],
+    "fauna": ["Elephants", "Wild Water Buffalo", "Tigers", "Leopards"],
+    "flora": ["Sal Trees", "Bamboo", "Grass Species"],
+    "best_time_to_visit": "November to April"
   },
   {
     "id": 12,
     "name": "Valley of Flowers National Park",
     "location": "Uttarakhand, India",
-    "famousFor": "Meadows of endemic alpine flowers",
-    "image": "/park_images/valleyofflowers.png"
+    "images": "/park_images/valleyofflowers.png",
+    "established": "1982",
+    "habitats": ["Alpine Meadows", "Glacial Valleys"],
+    "fauna": ["Himalayan Black Bear", "Snow Leopard", "Birds"],
+    "flora": ["Endemic Alpine Flowers", "Rhododendrons", "Medicinal Plants"],
+    "best_time_to_visit": "July to September"
   },
   {
     "id": 13,
     "name": "Tadoba National Park",
     "location": "Maharashtra, India",
-    "famousFor": "Tigers, leopards, sloth bears",
-    "image": "/park_images/tadoba.png"
+    "images": "/park_images/tadoba.png",
+    "established": "1955",
+    "habitats": ["Tropical Forests", "Grasslands", "Water Bodies"],
+    "fauna": ["Tigers", "Leopards", "Sloth Bears", "Wild Dogs"],
+    "flora": ["Teak", "Bamboo", "Sal Trees"],
+    "best_time_to_visit": "October to June"
   },
   {
     "id": 14,
     "name": "Bannerghatta National Park",
     "location": "Karnataka, India",
-    "famousFor": "Butterfly park, elephants, zoo",
-    "image": "/park_images/bannerghatta.png"
+    "images": "/park_images/bannerghatta.png",
+    "established": "1974",
+    "habitats": ["Tropical Forests", "Grasslands", "Zoos"],
+    "fauna": ["Elephants", "Leopards", "Birds", "Butterflies"],
+    "flora": ["Teak", "Bamboo", "Sal Trees"],
+    "best_time_to_visit": "October to May"
   },
   {
     "id": 15,
     "name": "Great Himalayan National Park",
     "location": "Himachal Pradesh, India",
-    "famousFor": "Snow leopards, Himalayan tahr, alpine ecosystems",
-    "image": "/park_images/great_himalayan.png"
+    "images": "/park_images/great_himalayan.png",
+    "established": "1984",
+    "habitats": ["Alpine Meadows", "Coniferous Forests", "Glacial Valleys"],
+    "fauna": ["Snow Leopards", "Himalayan Tahr", "Musk Deer", "Birds"],
+    "flora": ["Rhododendrons", "Juniper", "Alpine Flowers"],
+    "best_time_to_visit": "April to October"
+  },
+  {
+    "id": 16,
+    "name": "Bandipur National Park",
+    "location": "Karnataka, India",
+    "images": "/park_images/bandipur.png",
+    "established": "1974",
+    "habitats": ["Dry Deciduous Forests", "Shrublands", "Water Bodies"],
+    "fauna": ["Tigers", "Elephants", "Gaur", "Dhole"],
+    "flora": ["Teak", "Rosewood", "Sandalwood", "Bamboo"],
+    "best_time_to_visit": "October to May"
+  },
+  {
+    "id": 17,
+    "name": "Nagarhole National Park",
+    "location": "Karnataka, India",
+    "images": "/park_images/nagarhole.png",
+    "established": "1988",
+    "habitats": ["Moist Deciduous Forests", "Rivers", "Grasslands"],
+    "fauna": ["Bengal Tigers", "Indian Leopards", "Ussuri Dhole", "Elephants"],
+    "flora": ["Teak", "Rosewood", "Silver Oak", "Sandalwood"],
+    "best_time_to_visit": "October to May"
+  },
+  {
+    "id": 18,
+    "name": "Panna National Park",
+    "location": "Madhya Pradesh, India",
+    "images": "/park_images/panna.png",
+    "established": "1981",
+    "habitats": ["Tropical Dry Deciduous Forests", "Plateaus", "Gorges"],
+    "fauna": ["Tigers", "Leopards", "Sloth Bears", "Gharial"],
+    "flora": ["Teak", "Tendu", "Sal", "Bamboo"],
+    "best_time_to_visit": "November to May"
+  },
+  {
+    "id": 19,
+    "name": "Dudhwa National Park",
+    "location": "Uttar Pradesh, India",
+    "images": "/park_images/dudhwa.png",
+    "established": "1977",
+    "habitats": ["Terai Ecosystem", "Grasslands", "Wetlands", "Sal Forests"],
+    "fauna": ["Tigers", "Swamp Deer (Barasingha)", "One-horned Rhinoceros", "Elephants"],
+    "flora": ["Sal Trees", "Jamun", "Sheesham", "Tall Grasses"],
+    "best_time_to_visit": "November to June"
+  },
+  {
+    "id": 20,
+    "name": "Sariska Tiger Reserve",
+    "location": "Rajasthan, India",
+    "images": "/park_images/sariska.png",
+    "established": "1955",
+    "habitats": ["Dry Deciduous Forests", "Scrub-thorn Forests", "Rocky Hills"],
+    "fauna": ["Bengal Tigers", "Leopards", "Sambar Deer", "Indian Peafowl"],
+    "flora": ["Dhok", "Salai", "Ber", "Tendu"],
+    "best_time_to_visit": "October to June"
+  },
+  {
+    "id": 21,
+    "name": "Keoladeo National Park",
+    "location": "Rajasthan, India",
+    "images": "/park_images/keolado.png",
+    "established": "1982",
+    "habitats": ["Wetlands", "Marshes", "Grasslands", "Scrublands"],
+    "fauna": ["Siberian Cranes", "Pelicans", "Herons", "Pythons"],
+    "flora": ["Kadam", "Jamun", "Babul", "Aquatic Plants"],
+    "best_time_to_visit": "October to March"
+  },
+  {
+    "id": 22,
+    "name": "Hemis National Park",
+    "location": "Ladakh, India",
+    "images": "/park_images/hemis.png",
+    "established": "1981",
+    "habitats": ["Alpine Forests", "Steppe", "High-altitude Desert"],
+    "fauna": ["Snow Leopards", "Blue Sheep (Bharal)", "Tibetan Wolf", "Golden Eagle"],
+    "flora": ["Juniper", "Poplar", "Birch", "Alpine Shrubs"],
+    "best_time_to_visit": "May to October"
+  },
+  {
+    "id": 23,
+    "name": "Mudumalai National Park",
+    "location": "Tamil Nadu, India",
+    "images": "/park_images/mudumalai.png",
+    "established": "1940",
+    "habitats": ["Tropical Moist Deciduous Forests", "Dry Deciduous Forests", "Shrublands"],
+    "fauna": ["Bengal Tigers", "Indian Elephants", "Indian Leopards", "Gaur"],
+    "flora": ["Teak", "Bamboo", "Indian Laurel", "Sandalwood"],
+    "best_time_to_visit": "October to May"
+  },
+  {
+    "id": 24,
+    "name": "Indravati National Park",
+    "location": "Chhattisgarh, India",
+    "images": "/park_images/indravati.png",
+    "established": "1975",
+    "habitats": ["Tropical Moist and Dry Deciduous Forests", "Grasslands", "Riverine areas"],
+    "fauna": ["Wild Asian Buffalo", "Tigers", "Leopards", "Hill Myna"],
+    "flora": ["Sal", "Teak", "Bamboo", "Mahua"],
+    "best_time_to_visit": "December to June"
+  },
+  {
+    "id": 25,
+    "name": "Khangchendzonga National Park",
+    "location": "Sikkim, India",
+    "images": "/park_images/kahngchendzonga.png",
+    "established": "1977",
+    "habitats": ["Temperate Broadleaf Forests", "Alpine Scrubs", "Glaciers"],
+    "fauna": ["Snow Leopard", "Red Panda", "Himalayan Tahr", "Musk Deer"],
+    "flora": ["Oak", "Fir", "Maple", "Rhododendrons"],
+    "best_time_to_visit": "April to May and September to November"
+  },
+  {
+    "id": 26,
+    "name": "Bharatpur Bird Sanctuary",
+    "location": "Rajasthan, India",
+    "images": "/park_images/bharatpur.png",
+    "established": "1982",
+    "habitats": ["Wetlands", "Grasslands", "Marshes"],
+    "fauna": ["Siberian Cranes", "Pelicans", "Herons", "Ducks"],
+    "flora": ["Aquatic Plants", "Reeds", "Grasses"],
+    "best_time_to_visit": "October to March",
+    "type": "Wildlife Sanctuary"
+  },
+  {
+    "id": 27,
+    "name": "Bhadra Wildlife Sanctuary",
+    "location": "Karnataka, India",
+    "images": "/park_images/bhadra.png",
+    "established": "1974",
+    "habitats": ["Tropical Forests", "Grasslands", "Rivers"],
+    "fauna": ["Tigers", "Elephants", "Leopards", "Gaur"],
+    "flora": ["Teak", "Bamboo", "Sandalwood", "Rosewood"],
+    "best_time_to_visit": "October to May",
+    "type": "Wildlife Sanctuary"
+  },
+  {
+    "id": 28,
+    "name": "Cotigao Wildlife Sanctuary",
+    "location": "Goa, India",
+    "images": "/park_images/cotigao.png",
+    "established": "1968",
+    "habitats": ["Tropical Evergreen Forests", "Rivers", "Hills"],
+    "fauna": ["Leopards", "Sloth Bears", "Deer", "Birds"],
+    "flora": ["Teak", "Bamboo", "Cashew Trees", "Evergreen Species"],
+    "best_time_to_visit": "October to March",
+    "type": "Wildlife Sanctuary"
+  },
+  {
+    "id": 29,
+    "name": "Kawal Wildlife Sanctuary",
+    "location": "Telangana, India",
+    "images": "/park_images/kawal.png",
+    "established": "1965",
+    "habitats": ["Deciduous Forests", "Grasslands", "Lakes"],
+    "fauna": ["Tigers", "Leopards", "Wild Dogs", "Elephants"],
+    "flora": ["Teak", "Sal Trees", "Bamboo", "Shrubs"],
+    "best_time_to_visit": "October to June",
+    "type": "Wildlife Sanctuary"
+  },
+  {
+    "id": 30,
+    "name": "Eturnagaram Wildlife Sanctuary",
+    "location": "Telangana, India",
+    "images": "/park_images/eturnagaram.png",
+    "established": "1953",
+    "habitats": ["Tropical Deciduous Forests", "Rivers", "Hills"],
+    "fauna": ["Tigers", "Leopards", "Deer", "Wild Boar"],
+    "flora": ["Teak", "Bamboo", "Mahua", "Tendu"],
+    "best_time_to_visit": "October to June",
+    "type": "Wildlife Sanctuary"
+  },
+  {
+    "id": 31,
+    "name": "Bura-Chapori Wildlife Sanctuary",
+    "location": "Assam, India",
+    "images": "/park_images/bura_chapori.png",
+    "established": "1974",
+    "habitats": ["Riverine Forests", "Grasslands", "Wetlands"],
+    "fauna": ["One-horned Rhinoceros", "Elephants", "Swamp Deer", "Birds"],
+    "flora": ["Aquatic Plants", "Grasses", "Sal Trees"],
+    "best_time_to_visit": "November to April",
+    "type": "Wildlife Sanctuary"
   }
 ]
