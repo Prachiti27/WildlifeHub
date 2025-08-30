@@ -4,104 +4,104 @@
     "name": "Jim Corbett National Park",
     "location": "Uttarakhand, India",
     "famousFor": "Bengal Tigers, leopards, and rich flora",
-    "image": "/assets/park_images/corbett.png"
+    "image": "/park_images/corbett.png"
   },
   {
     "id": 2,
     "name": "Kaziranga National Park",
     "location": "Assam, India",
     "famousFor": "One-horned Rhinoceros, swamp deer, migratory birds",
-    "image": "/assets/park_images/kaziranga.png"
+    "image": "/park_images/kaziranga.png"
   },
   {
     "id": 3,
     "name": "Gir National Park",
     "location": "Gujarat, India",
     "famousFor": "Asiatic Lions, leopards, striped hyenas",
-    "image": "/assets/park_images/gir.png"
+    "image": "/park_images/gir.png"
   },
   {
     "id": 4,
     "name": "Ranthambore National Park",
     "location": "Rajasthan, India",
     "famousFor": "Royal Bengal Tigers, Ranthambore Fort",
-    "image": "/assets/park_images/ranthambore.png"
+    "image": "/park_images/ranthambore.png"
   },
   {
     "id": 5,
     "name": "Sundarbans National Park",
     "location": "West Bengal, India",
     "famousFor": "Mangrove forests, estuarine crocodiles, tigers",
-    "image": "/assets/park_images/sundarbans.png"
+    "image": "/park_images/sundarbans.png"
   },
   {
     "id": 6,
     "name": "Kanha National Park",
     "location": "Madhya Pradesh, India",
     "famousFor": "Swamp Deer (Barasingha), tigers, meadows",
-    "image": "/assets/park_images/kanha.png"
+    "image": "/park_images/kanha.png"
   },
   {
     "id": 7,
     "name": "Bandhavgarh National Park",
     "location": "Madhya Pradesh, India",
     "famousFor": "Highest density of Bengal Tigers, ancient fort",
-    "image": "/assets/park_images/bandhavgarh.png"
+    "image": "/park_images/bandhavgarh.png"
   },
   {
     "id": 8,
     "name": "Pench National Park",
     "location": "Madhya Pradesh/Maharashtra, India",
     "famousFor": "Inspiration for 'The Jungle Book', tigers, wild dogs",
-    "image": "/assets/park_images/pench.png"
+    "image": "/park_images/pench.png"
   },
   {
     "id": 9,
     "name": "Periyar National Park",
     "location": "Kerala, India",
     "famousFor": "Elephants, Periyar Lake, birdlife",
-    "image": "/assets/park_images/periyar.png"
+    "image": "/park_images/periyar.png"
   },
   {
     "id": 10,
     "name": "Nanda Devi National Park",
     "location": "Uttarakhand, India",
     "famousFor": "Himalayan peaks, alpine flora, snow leopards",
-    "image": "/assets/park_images/nandadevi.png"
+    "image": "/park_images/nandadevi.png"
   },
   {
     "id": 11,
     "name": "Manas National Park",
     "location": "Assam, India",
     "famousFor": "UNESCO site, elephants, wild water buffalo",
-    "image": "/assets/park_images/manas.png"
+    "image": "/park_images/manas.png"
   },
   {
     "id": 12,
     "name": "Valley of Flowers National Park",
     "location": "Uttarakhand, India",
     "famousFor": "Meadows of endemic alpine flowers",
-    "image": "/assets/park_images/valleyofflowers.png"
+    "image": "/park_images/valleyofflowers.png"
   },
   {
     "id": 13,
     "name": "Tadoba National Park",
     "location": "Maharashtra, India",
     "famousFor": "Tigers, leopards, sloth bears",
-    "image": "/assets/park_images/tadoba.png"
+    "image": "/park_images/tadoba.png"
   },
   {
     "id": 14,
     "name": "Bannerghatta National Park",
     "location": "Karnataka, India",
     "famousFor": "Butterfly park, elephants, zoo",
-    "image": "/assets/park_images/bannerghatta.png"
+    "image": "/park_images/bannerghatta.png"
   },
   {
     "id": 15,
     "name": "Great Himalayan National Park",
     "location": "Himachal Pradesh, India",
     "famousFor": "Snow leopards, Himalayan tahr, alpine ecosystems",
-    "image": "/assets/park_images/great_himalayan.png"
+    "image": "/park_images/great_himalayan.png"
   }
 ]

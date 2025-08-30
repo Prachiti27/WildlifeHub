@@ -9,10 +9,13 @@ import AboutUs from './pages/AboutUs'
 import SupportUs from './pages/SupportUs'
 import AllSpecies from './pages/AllSpecies'
 import Games from './pages/Games'
+import { AnimatePresence } from 'motion/react'
+import AnimalDetailPage from './pages/AnimalDetailPage'
 
 const App = () => {
   return (
-    <Routes>
+    <AnimatePresence mode='wait'>
+      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/live-tracking' element={<LiveTracking/>}/>
       <Route path='/news' element={<News/>}/>
@@ -22,7 +25,9 @@ const App = () => {
       <Route path='/support-us' element={<SupportUs/>}/>
       <Route path='/animals' element={<AllSpecies/>}/>
       <Route path='/games' element={<Games/>}/>
+      <Route path='/animal/:id' element={<AnimalDetailPage/>}/>
     </Routes>
+    </AnimatePresence>
   )
 }
 
