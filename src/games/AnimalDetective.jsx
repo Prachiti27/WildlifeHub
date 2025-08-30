@@ -94,12 +94,12 @@ const AnimalDetective = () => {
     }
 
     return (
-        <div className='min-h-screen bg-gradient-to-b from-[#074240] to-[#12A8A3] flex flex-col items-center justify-start py-10 px-4'>
+        <div className='min-h-screen bg-white shadow flex flex-col items-center justify-start py-10 px-4'>
             <motion.h1
                 initial={{ y: -50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className='text-4xl text-white font-bold mb-6 text-center'
+                className='text-4xl text-[#074240] font-bold mb-6 text-center'
             >
                 Animal Detective 🕵️‍♂️
             </motion.h1>
@@ -110,7 +110,7 @@ const AnimalDetective = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
             >
-                <span className='text-white font-semibold text-lg mr-2'>Score:</span>
+                <span className='text-[#074240] font-semibold text-lg mr-2'>Score:</span>
                 <span className='bg-white text-[#074240] font-bold px-3 py-1 rounded-full text-lg'>{score}</span>
             </motion.div>
 

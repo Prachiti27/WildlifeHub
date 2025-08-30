@@ -42,12 +42,12 @@ const AnimalWordle = () => {
   }
 
   return (
-    <div className='min-h-screen bg-gradient-to-b from-[#074240] to-[#12A8A3] flex flex-col items-center py-10 px-4'>
+    <div className='min-h-screen bg-white flex flex-col items-center py-10 px-4 shadow'>
       <motion.h1
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className='text-4xl font-bold text-white mb-6 text-center'
+        className='text-4xl font-bold text-[#074240] mb-6 text-center'
       >
         Animal Wordle 🦁
       </motion.h1>

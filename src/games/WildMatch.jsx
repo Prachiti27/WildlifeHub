@@ -71,9 +71,9 @@ const WildMatch = () => {
     }
 
     return (
-        <div className='min-h-screen bg-gradient-to-b from-[#074240] to-[#12A8A3] flex flex-col items-center py-10'>
-            <h1 className='text-4xl text-white font-bold mb-2'>Wild Match</h1>
-            <h2 className='text-lg text-white mb-6'>
+        <div className='min-h-screen bg-white flex flex-col items-center py-10 shadow'>
+            <h1 className='text-4xl text-[#074240] font-bold mb-2'>Wild Match</h1>
+            <h2 className='text-lg text-[#074240]  mb-6'>
                 Matches: <span className='font-semibold'>{matches}</span> / {animals.length}
             </h2>
             <div className='grid grid-cols-4 gap-4'>
@@ -86,7 +86,7 @@ const WildMatch = () => {
                             whileTap={{ scale: 0.9 }}
                         >
                             <motion.div
-                                className='absolute w-full h-full rounded-xl flex items-center justify-center text-3xl bg-white backface-hidden'
+                                className='absolute w-full h-full rounded-xl flex items-center justify-center text-3xl bg-[#074240]/90 backface-hidden'
                                 animate={{ rotateY: card.flipped || card.matched ? 180 : 0 }}
                                 transition={{ duration: 0.5 }}
                             >
@@ -94,7 +94,7 @@ const WildMatch = () => {
                             </motion.div>
 
                             <motion.div
-                                className='absolute w-full h-full rounded-xl flex items-center justify-center text-3xl bg-[#4cdad6] backface-hidden'
+                                className='absolute w-full h-full rounded-xl flex items-center justify-center text-3xl bg-[#12A8A3] backface-hidden'
                                 animate={{ rotateY: card.flipped || card.matched ? 0 : -100 }}
                                 transition={{ duration: 0.5 }}
                             >
