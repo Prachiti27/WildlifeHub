@@ -6,7 +6,6 @@ import News from './pages/News'
 import Parks from './pages/Parks'
 import ContactUs from './pages/ContactUs'
 import AboutUs from './pages/AboutUs'
-import SupportUs from './pages/SupportUs'
 import AllSpecies from './pages/AllSpecies'
 import Games from './pages/Games'
 import { AnimatePresence } from 'motion/react'
@@ -22,7 +21,6 @@ const App = () => {
       <Route path='/parks&sancturies' element={<Parks/>}/>
       <Route path='/contact-us' element={<ContactUs/>}/>
       <Route path='/about-us' element={<AboutUs/>}/>
-      <Route path='/support-us' element={<SupportUs/>}/>
       <Route path='/animals' element={<AllSpecies/>}/>
       <Route path='/games' element={<Games/>}/>
       <Route path='/animal/:id' element={<AnimalDetailPage/>}/>
