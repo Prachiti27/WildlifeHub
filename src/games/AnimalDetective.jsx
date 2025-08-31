@@ -139,7 +139,7 @@ const AnimalDetective = () => {
                     value={guess}
                     onChange={(e) => setGuess(e.target.value)}
                     placeholder='Your guess...'
-                    className='w-full px-4 py-3 rounded-lg mb-4 border-2 border-white/50 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-700 font-medium'
+                    className='w-full px-4 py-3 rounded-lg mb-4 border-2 border-white/50 focus:outline-none focus:ring-2 focus:ring-[#074240]/75 text-gray-700 font-medium'
                 />
 
                 <motion.button

@@ -60,13 +60,13 @@ const Hero = () => {
                         WILDLIFE HUB
                     </motion.div>
                     <div className="ml-auto flex space-x-6 md:space-x-14 text-lg">
-                        {['Live Tracking', 'Species', 'Parks', 'News', 'About'].map((text, i) => (
+                        {['Species', 'News', 'Parks','Games', 'About'].map((text, i) => (
                             <motion.div key={i} custom={i} variants={linkVariants} initial="hidden" animate="visible">
                                 <Link
                                     className="hover:underline hover:text-white hover:cursor-pointer transition-all duration-300"
                                     to={
-                                        text === 'Live Tracking'
-                                            ? '/live-tracking'
+                                        text === 'Games'
+                                            ? '/games'
                                             : text === 'Species'
                                                 ? '/animals'
                                                 : text === 'Parks'
@@ -115,10 +115,10 @@ const Hero = () => {
                         </Link>
 
                         <Link
-                            to="/games"
+                            to="/live-tracking"
                             className="inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-[#074240] font-semibold text-2xl md:text-3xl px-8 py-4 rounded-full transition-all duration-300"
                         >
-                            <span>Games</span>
+                            <span>Live Tracking</span>
                             <ArrowRight size={28} className="inline-block" />
                         </Link>
                     </motion.div>

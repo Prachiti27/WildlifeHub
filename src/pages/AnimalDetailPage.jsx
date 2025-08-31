@@ -61,7 +61,7 @@ const AnimalDetailPage = () => {
                     <p className="mt-4">{animal.description}</p>
 
                     <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className="mt-6">
-                        <Link to="/" className="inline-block bg-[#12A8A3] text-white px-6 py-2 rounded-lg hover:opacity-95">
+                        <Link to="/animals" className="inline-block bg-[#12A8A3] text-white px-6 py-2 rounded-lg hover:opacity-95">
                             ← Back to Animals
                         </Link>
                     </motion.div>

@@ -88,7 +88,7 @@ const AnimalWordle = () => {
           value={currentGuess}
           onChange={(e) => setCurrentGuess(e.target.value.toLowerCase())}
           placeholder={`Enter ${target.length}-letter animal`}
-          className='w-full px-4 py-3 rounded-lg mb-4 border-2 border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-700 font-medium'
+          className='w-full px-4 py-3 rounded-lg mb-4 border-2 border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#074240]/80 text-gray-700 font-medium'
         />
 
         <motion.button
