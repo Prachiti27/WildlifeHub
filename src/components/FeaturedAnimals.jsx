@@ -44,7 +44,7 @@ const cardVariants = {
 
 const FeaturedAnimals = () => {
     return (
-        <section className='relative py-16 bg-gradient-to-b from-[#074240] to-[#12A8A3]'>
+        <section className='relative py-16'>
             <div className='max-w-6xl mx-auto px-6'>
                 <motion.h2
                     className='text-3xl md:text-4xl font-bold text-white text-center mb-12'
@@ -88,7 +88,7 @@ const FeaturedAnimals = () => {
 
                 <motion.a
                     href="/animals"
-                    className='absolute bottom-3 right-4 bg-transparent bg-opacity-20 backdrop-blur-md text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-opacity-40 transition duration-300'
+                    className='absolute bottom-3 right-4 bg-white bg-opacity-20 backdrop-blur-md text-[#074240] font-semibold py-2 px-4 rounded-full shadow-lg hover:bg-opacity-40 transition duration-300'
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >

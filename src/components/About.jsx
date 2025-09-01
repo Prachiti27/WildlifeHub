@@ -18,7 +18,7 @@ const About = () => {
         <>
             <div>
                 <motion.section
-                    className="bg-white py-24"
+                    className="py-24"
                     variants={sectionVariant}
                     initial="hidden"
                     whileInView="visible"
@@ -47,7 +47,7 @@ const About = () => {
                 </motion.section>
 
                 <motion.section
-                    className="bg-gradient-to-b from-[#074240] to-[#12A8A3] py-16"
+                    className="py-16"
                     variants={sectionVariant}
                     initial="hidden"
                     whileInView="visible"
@@ -66,13 +66,13 @@ const About = () => {
             >
                 <Link
                     to="/about-us"
-                    className="inline-block bg-gradient-to-r from-[#074240] to-[#12A8A3] text-white font-semibold px-6 py-3 rounded-full hover:opacity-90 transition text-center"
+                    className="inline-block bg-white text-[#074240] font-semibold px-6 py-3 rounded-full hover:opacity-90 transition text-center"
                 >
                     Learn More
                 </Link>
                 <Link
                     to="/contact-us"
-                    className="inline-block border border-[#074240] text-[#074240] font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition text-center"
+                    className="inline-block border border-white text-white font-semibold px-6 py-3 rounded-full hover:opacity-90 transition text-center"
                 >
                     Contact Us
                 </Link>

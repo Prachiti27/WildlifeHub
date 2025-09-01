@@ -34,7 +34,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className='bg-gradient-to-b from-[#074240] to-[#12A8A3] py-16'>
+        <section className='py-16'>
             <div className='max-w-6xl mx-auto px-6'>
                 <motion.h2
                     className='text-3xl md:text-4xl font-bold text-white text-center mb-12'

@@ -50,7 +50,7 @@ const KeyFeatures = () => {
                 whileInView={{opacity:1,y:0}}
                 transition={{duration:0.6}}
                 viewport={{once:true}}
-                className='text-3xl font-bold text-center text-[#074240] mb-12'
+                className='text-3xl font-bold text-center text-white mb-12'
             >
                 Key Features
             </motion.h2>

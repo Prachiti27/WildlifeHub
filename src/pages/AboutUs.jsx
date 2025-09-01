@@ -9,12 +9,8 @@ import { FacebookIcon, InstagramIcon, TwitterIcon } from 'lucide-react'
 const AboutUs = () => {
 
   const cardVariants = {
-    offscreen: { y: 50, opacity: 0 },
-    onscreen: {
-      y: 0,
-      opacity: 1,
-      transition: { type: "spring", bounce: 0.3, duration: 0.8 }
-    }
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   }
 
   return (
@@ -29,14 +25,11 @@ const AboutUs = () => {
       <div className='grid md:grid-cols-3 gap-8 mb-12'>
         <motion.div
           className='text-white rounded-lg p-6 flex flex-col items-center'
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{once:true, amount:0.5}}
-          variants={cardVariants}
         >
           <img
             src={mission_img}
             className='mb-4 rounded-lg'
+            variants={cardVariants}
           />
           <h3 className='font-bold text-xl mb-2'>MISSION</h3>
           <p className='text-center'>

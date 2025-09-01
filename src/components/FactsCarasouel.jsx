@@ -48,10 +48,10 @@ const FactsCarasouel = () => {
     }
 
     return (
-        <section className='bg-white py-16 h-[480px]'>
+        <section className='py-16 h-[480px]'>
             <div className='max-w-6xl mx-auto px-6 relative'>
                 <motion.h2
-                    className='text-3xl font-bold text-[#074240] text-center mb-24'
+                    className='text-3xl font-bold text-white text-center mb-24'
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
@@ -64,7 +64,7 @@ const FactsCarasouel = () => {
                     <AnimatePresence mode='wait'>
                         <motion.div
                             key={index}
-                            className='bg-gradient-to-b from-[#074240] to-[#12A8A3] text-white p-8 rounded-2xl shadow-lg text-center min-h-[150px] flex items-center justify-center relative'
+                            className='bg-white text-[#074240] p-8 rounded-2xl shadow-lg text-center min-h-[150px] flex items-center justify-center relative'
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -100 }}
@@ -74,7 +74,7 @@ const FactsCarasouel = () => {
 
                             <motion.button
                                 onClick={prevFact}
-                                className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
+                                className='absolute left-3 top-1/2 transform -translate-y-1/2 bg-[#074240] bg-opacity-70 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
                             >
@@ -83,7 +83,7 @@ const FactsCarasouel = () => {
 
                             <motion.button
                                 onClick={nextFact}
-                                className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 text-[#074240] rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
+                                className='absolute right-3 top-1/2 transform -translate-y-1/2 bg-[#074240] bg-opacity-70 text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg hover:bg-opacity-100 transition duration-300'
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.95 }}
                             >
