@@ -26,7 +26,7 @@ const About = () => {
                 >
                     <div className="max-w-6xl mx-auto px-6 md:px-12 text-center space-y-12">
                         <motion.div
-                            className="bg-white/90 p-8 md:p-12 rounded-2xl shadow-lg space-y-6"
+                            className="bg-white p-8 md:p-12 rounded-2xl shadow-lg space-y-6"
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0, transition: { duration: 0.6 } }}
                         >

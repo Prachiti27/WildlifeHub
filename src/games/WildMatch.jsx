@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'motion/react'
 
-const animals = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
+const animals = ["🐶", "🐯", "🦁", "🐹", "🐰", "🦊", "🐻", "🐼"]
 
 function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5)
