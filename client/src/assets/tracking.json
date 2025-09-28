@@ -1,0 +1,473 @@
+[
+  {
+    "name": "Arctic Tern",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 77.47, "lng": -20.56 },
+      { "lat": 14.69, "lng": -17.44 },
+      { "lat": -33.92, "lng": 18.42 },
+      { "lat": -75.00, "lng": 0.00 }
+    ]
+  },
+  {
+    "name": "Monarch Butterfly",
+    "emoji": "🦋",
+    "path": [
+      { "lat": 45.00, "lng": -80.00 },
+      { "lat": 31.00, "lng": -100.00 },
+      { "lat": 19.58, "lng": -101.55 }
+    ]
+  },
+  {
+    "name": "Giant Panda",
+    "emoji": "🐼",
+    "path": [
+      { "lat": 33.80, "lng": 107.50 },
+      { "lat": 33.85, "lng": 107.55 },
+      { "lat": 33.90, "lng": 107.60 }
+    ]
+  },
+  {
+    "name": "Wildebeest",
+    "emoji": "🐃",
+    "path": [
+      { "lat": -3.20, "lng": 34.80 },
+      { "lat": -2.00, "lng": 33.90 },
+      { "lat": -1.50, "lng": 35.10 }
+    ]
+  },
+  {
+    "name": "Caribou",
+    "emoji": "🦌",
+    "path": [
+      { "lat": 69.50, "lng": -145.00 },
+      { "lat": 67.00, "lng": -141.00 },
+      { "lat": 65.00, "lng": -138.00 }
+    ]
+  },
+  {
+    "name": "Gray Whale",
+    "emoji": "🐳",
+    "path": [
+      { "lat": 65.00, "lng": -170.00 },
+      { "lat": 34.00, "lng": -120.00 },
+      { "lat": 25.00, "lng": -112.00 }
+    ]
+  },
+  {
+    "name": "Leatherback Sea Turtle",
+    "emoji": "🐢",
+    "path": [
+      { "lat": -2.00, "lng": 138.00 },
+      { "lat": 20.00, "lng": 170.00 },
+      { "lat": 36.60, "lng": -121.90 }
+    ]
+  },
+  {
+    "name": "Sockeye Salmon",
+    "emoji": "🐟",
+    "path": [
+      { "lat": 55.00, "lng": -145.00 },
+      { "lat": 52.00, "lng": -175.00 },
+      { "lat": 49.25, "lng": -122.95 }
+    ]
+  },
+  {
+    "name": "Ruby-throated Hummingbird",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 44.00, "lng": -79.00 },
+      { "lat": 29.00, "lng": -90.00 },
+      { "lat": 10.00, "lng": -84.00 }
+    ]
+  },
+  {
+    "name": "Globe Skimmer Dragonfly",
+    "emoji": "🦟",
+    "path": [
+      { "lat": 20.00, "lng": 78.00 },
+      { "lat": 3.00, "lng": 73.00 },
+      { "lat": 0.00, "lng": 45.00 }
+    ]
+  },
+  {
+    "name": "Plains Zebra",
+    "emoji": "🦓",
+    "path": [
+      { "lat": -2.50, "lng": 34.80 },
+      { "lat": -2.00, "lng": 34.00 },
+      { "lat": -1.40, "lng": 35.20 }
+    ]
+  },
+  {
+    "name": "Sperm Whale",
+    "emoji": "🐋",
+    "path": [
+      { "lat": 38.00, "lng": -28.00 },
+      { "lat": 50.00, "lng": -30.00 },
+      { "lat": 68.00, "lng": 15.00 }
+    ]
+  },
+  {
+    "name": "Northern Elephant Seal",
+    "emoji": "🦭",
+    "path": [
+      { "lat": 37.11, "lng": -122.36 },
+      { "lat": 58.00, "lng": -148.00 },
+      { "lat": 52.00, "lng": 178.00 }
+    ]
+  },
+  {
+    "name": "Whooping Crane",
+    "emoji": "🦢",
+    "path": [
+      { "lat": 60.00, "lng": -113.00 },
+      { "lat": 41.00, "lng": -98.00 },
+      { "lat": 28.00, "lng": -96.00 }
+    ]
+  },
+  {
+    "name": "Sandhill Crane",
+    "emoji": "🦢",
+    "path": [
+      { "lat": 65.00, "lng": 170.00 },
+      { "lat": 41.00, "lng": -98.50 },
+      { "lat": 34.22, "lng": -102.72 }
+    ]
+  },
+  {
+    "name": "Atlantic Bluefin Tuna",
+    "emoji": "🐠",
+    "path": [
+      { "lat": 25.00, "lng": -90.00 },
+      { "lat": 35.00, "lng": -75.00 },
+      { "lat": 64.00, "lng": -20.00 }
+    ]
+  },
+  {
+    "name": "Great White Shark",
+    "emoji": "🦈",
+    "path": [
+      { "lat": 37.70, "lng": -123.00 },
+      { "lat": 24.00, "lng": -135.00 },
+      { "lat": 21.30, "lng": -157.85 }
+    ]
+  },
+  {
+    "name": "Osprey",
+    "emoji": "🦅",
+    "path": [
+      { "lat": 48.00, "lng": -56.00 },
+      { "lat": 22.00, "lng": -79.00 },
+      { "lat": -3.00, "lng": -60.00 }
+    ]
+  },
+  {
+    "name": "Pronghorn",
+    "emoji": "🦌",
+    "path": [
+      { "lat": 42.50, "lng": -110.00 },
+      { "lat": 43.30, "lng": -110.40 },
+      { "lat": 43.58, "lng": -110.73 }
+    ]
+  },
+  {
+    "name": "Canada Goose",
+    "emoji": "🦆",
+    "path": [
+      { "lat": 58.00, "lng": -90.00 },
+      { "lat": 40.00, "lng": -90.00 },
+      { "lat": 29.00, "lng": -91.00 }
+    ]
+  },
+  {
+    "name": "European Robin",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 60.00, "lng": 15.00 },
+      { "lat": 51.00, "lng": 10.00 },
+      { "lat": 40.00, "lng": -4.00 }
+    ]
+  },
+  {
+    "name": "Arctic Fox",
+    "emoji": "🦊",
+    "path": [
+      { "lat": 78.00, "lng": 20.00 },
+      { "lat": 75.00, "lng": -40.00 },
+      { "lat": 80.00, "lng": -75.00 }
+    ]
+  },
+  {
+    "name": "Narwhal",
+    "emoji": "🐋",
+    "path": [
+      { "lat": 74.00, "lng": -65.00 },
+      { "lat": 68.00, "lng": -60.00 },
+      { "lat": 65.00, "lng": -58.00 }
+    ]
+  },
+  {
+    "name": "Green Sea Turtle",
+    "emoji": "🐢",
+    "path": [
+      { "lat": -8.00, "lng": -35.00 },
+      { "lat": -7.95, "lng": -24.50 },
+      { "lat": -7.93, "lng": -14.35 }
+    ]
+  },
+  {
+    "name": "Common Cuckoo",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 53.00, "lng": -1.00 },
+      { "lat": 10.00, "lng": 18.00 },
+      { "lat": 1.00, "lng": 22.00 }
+    ]
+  },
+  {
+    "name": "Barn Swallow",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 62.00, "lng": 15.00 },
+      { "lat": 25.00, "lng": 15.00 },
+      { "lat": -30.00, "lng": 25.00 }
+    ]
+  },
+  {
+    "name": "Walrus",
+    "emoji": "🦭",
+    "path": [
+      { "lat": 69.00, "lng": -172.00 },
+      { "lat": 67.00, "lng": -169.50 },
+      { "lat": 65.00, "lng": -169.00 }
+    ]
+  },
+  {
+    "name": "Emperor Penguin",
+    "emoji": "🐧",
+    "path": [
+      { "lat": -70.60, "lng": -8.25 },
+      { "lat": -68.00, "lng": -6.00 },
+      { "lat": -66.00, "lng": -4.00 }
+    ]
+  },
+  {
+    "name": "Snowy Owl",
+    "emoji": "🦉",
+    "path": [
+      { "lat": 68.00, "lng": -75.00 },
+      { "lat": 55.00, "lng": -80.00 },
+      { "lat": 44.00, "lng": -85.00 }
+    ]
+  },
+  {
+    "name": "Atlantic Puffin",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 65.00, "lng": -18.00 },
+      { "lat": 55.00, "lng": -30.00 },
+      { "lat": 50.00, "lng": -40.00 }
+    ]
+  },
+  {
+    "name": "Loggerhead Sea Turtle",
+    "emoji": "🐢",
+    "path": [
+      { "lat": 30.30, "lng": 130.50 },
+      { "lat": 35.00, "lng": -160.00 },
+      { "lat": 28.00, "lng": -114.00 }
+    ]
+  },
+  {
+    "name": "Northern Gannet",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 56.07, "lng": -2.64 },
+      { "lat": 46.00, "lng": -6.00 },
+      { "lat": 25.00, "lng": -16.00 }
+    ]
+  },
+  {
+    "name": "European Eel",
+    "emoji": "🐍",
+    "path": [
+      { "lat": 25.00, "lng": -65.00 },
+      { "lat": 40.00, "lng": -30.00 },
+      { "lat": 47.00, "lng": 1.00 }
+    ]
+  },
+  {
+    "name": "Reindeer (Norway)",
+    "emoji": "🦌",
+    "path": [
+      { "lat": 61.50, "lng": 8.50 },
+      { "lat": 60.80, "lng": 7.80 },
+      { "lat": 60.10, "lng": 9.50 }
+    ]
+  },
+  {
+    "name": "Blue Whale",
+    "emoji": "🐳",
+    "path": [
+      { "lat": 3.00, "lng": -90.00 },
+      { "lat": 34.00, "lng": -121.00 },
+      { "lat": 55.00, "lng": -140.00 }
+    ]
+  },
+  {
+    "name": "Painted Lady Butterfly",
+    "emoji": "🦋",
+    "path": [
+      { "lat": 15.00, "lng": 20.00 },
+      { "lat": 30.00, "lng": 5.00 },
+      { "lat": 55.00, "lng": 10.00 }
+    ]
+  },
+  {
+    "name": "Sooty Shearwater",
+    "emoji": "🐦",
+    "path": [
+      { "lat": -46.50, "lng": 168.00 },
+      { "lat": 35.00, "lng": 150.00 },
+      { "lat": 55.00, "lng": -150.00 },
+      { "lat": 34.00, "lng": -120.00 }
+    ]
+  },
+  {
+    "name": "Red Knot",
+    "emoji": "🐦",
+    "path": [
+      { "lat": -54.00, "lng": -67.00 },
+      { "lat": 39.15, "lng": -74.85 },
+      { "lat": 75.00, "lng": -95.00 }
+    ]
+  },
+  {
+    "name": "White Stork",
+    "emoji": "🐦",
+    "path": [
+      { "lat": 52.52, "lng": 13.40 },
+      { "lat": 40.85, "lng": 29.28 },
+      { "lat": 29.97, "lng": 31.13 },
+      { "lat": -25.74, "lng": 28.18 }
+    ]
+  },
+  {
+    "name": "Mexican Free-tailed Bat",
+    "emoji": "🦇",
+    "path": [
+      { "lat": 19.43, "lng": -99.13 },
+      { "lat": 29.68, "lng": -98.28 },
+      { "lat": 34.00, "lng": -102.00 }
+    ]
+  },
+  {
+    "name": "Whale Shark",
+    "emoji": "🦈",
+    "path": [
+      { "lat": -22.33, "lng": 113.67 },
+      { "lat": -8.34, "lng": 115.09 },
+      { "lat": 14.59, "lng": 120.98 }
+    ]
+  },
+  {
+    "name": "Salmon Shark",
+    "emoji": "🦈",
+    "path": [
+      { "lat": 58.00, "lng": -145.00 },
+      { "lat": 48.00, "lng": -125.00 },
+      { "lat": 35.00, "lng": -130.00 }
+    ]
+  },
+  {
+    "name": "Straw-coloured Fruit Bat",
+    "emoji": "🦇",
+    "path": [
+      { "lat": 0.34, "lng": 32.58 },
+      { "lat": -8.50, "lng": 35.00 },
+      { "lat": -12.97, "lng": 28.63 }
+    ]
+  },
+  {
+    "name": "Kemp's Ridley Sea Turtle",
+    "emoji": "🐢",
+    "path": [
+      { "lat": 23.15, "lng": -97.80 },
+      { "lat": 27.00, "lng": -95.00 },
+      { "lat": 29.00, "lng": -85.00 }
+    ]
+  },
+  {
+    "name": "Bengal Tiger",
+    "emoji": "🐅",
+    "path": [
+      { "lat": 26.12, "lng": 76.45 },
+      { "lat": 26.05, "lng": 76.55 },
+      { "lat": 26.15, "lng": 76.50 }
+    ]
+  },
+  {
+    "name": "Grizzly Bear",
+    "emoji": "🐻",
+    "path": [
+      { "lat": 44.42, "lng": -110.58 },
+      { "lat": 44.80, "lng": -110.40 },
+      { "lat": 44.60, "lng": -110.75 }
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "emoji": "🐻‍❄️",
+    "path": [
+      { "lat": 65.00, "lng": -85.00 },
+      { "lat": 68.00, "lng": -88.00 },
+      { "lat": 70.00, "lng": -83.00 }
+    ]
+  },
+  {
+    "name": "Gray Wolf",
+    "emoji": "🐺",
+    "path": [
+      { "lat": 65.00, "lng": -125.00 },
+      { "lat": 65.50, "lng": -127.00 },
+      { "lat": 64.80, "lng": -126.00 }
+    ]
+  },
+  {
+    "name": "Red Fox",
+    "emoji": "🦊",
+    "path": [
+      { "lat": 51.50, "lng": -0.12 },
+      { "lat": 51.52, "lng": -0.10 },
+      { "lat": 51.49, "lng": -0.15 }
+    ]
+  },
+  {
+    "name": "African Bush Elephant",
+    "emoji": "🐘",
+    "path": [
+      { "lat": -19.48, "lng": 22.56 },
+      { "lat": -19.00, "lng": 23.50 },
+      { "lat": -17.82, "lng": 25.15 }
+    ]
+  },
+  {
+    "name": "Christmas Island Red Crab",
+    "emoji": "🦀",
+    "path": [
+      { "lat": -10.48, "lng": 105.63 },
+      { "lat": -10.44, "lng": 105.68 },
+      { "lat": -10.42, "lng": 105.69 }
+    ]
+  },
+  {
+    "name": "Jaguar",
+    "emoji": "🐆",
+    "path": [
+      { "lat": -19.03, "lng": -56.58 },
+      { "lat": -18.80, "lng": -56.90 },
+      { "lat": -19.10, "lng": -57.10 }
+    ]
+  }
+]
