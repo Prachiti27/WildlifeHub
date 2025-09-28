@@ -88,7 +88,7 @@ const Hero = () => {
 
                         <motion.div variants={linkVariants} initial="hidden" animate="visible">
                             <Link
-                                to={isSignedIn ? '/community' : '/sign-in'}
+                                to={isSignedIn ? '/community' : '/community'}
                                 className="px-4 py-2 rounded-full bg-white text-[#074240] font-semibold hover:bg-white/80 transition-all duration-300 whitespace-nowrap"
                             >
                                 {isSignedIn ? 'Community' : 'Join Community'}
