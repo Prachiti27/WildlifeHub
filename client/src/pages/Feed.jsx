@@ -1,16 +1,35 @@
 import React, { useEffect, useState } from 'react'
-import { assets, dummyPostsData } from '../assets/assets'
+import { assets } from '../assets/assets'
 import Loading from '../components/Loading'
 import PostCard from '../components/PostCard'
 import RecentMessages from '../components/RecentMessages'
+import { useAuth } from '@clerk/clerk-react'
+import api from '../api/axios.js'
+import toast from 'react-hot-toast'
 
 const Feed = () => {
 
     const [feeds,setFeeds] = useState([])
     const [loading,setLoading] = useState(true)
+    const {getToken} = useAuth()
 
     const fetchFeeds = async () => {
-        setFeeds(dummyPostsData)
+        try {
+          setLoading(true)
+          const {data} = await api.get('/api/post/feed',{
+            headers: {Authorization: `Bearer ${await getToken()}`}
+          })  
+
+          if(data.success){
+            setFeeds(data.posts)
+          }
+          else{
+            toast.error(data.message)
+          }
+        } 
+        catch (error) {
+          toast.error(error.message)
+        }
         setLoading(false)
     }
 
@@ -38,8 +57,8 @@ const Feed = () => {
         <div className='max-w-xs bg-white text-xs p-4 rounded-md inline-flex flex-col gap-2 shadow'>
             <h3 className='text-slate-800 font-semibold'>Sponsored</h3>
             <img src={assets.sponsored_img} className='w-75 h-50 rounded-md'/>
-            <p className='text-slate-600'>Email marketing</p>
-            <p className='text-slate-400'>Supercharge your marketing with a powerful, easy-to-use platform built for results.</p>
+            <p className='text-slate-600'>Wildlife Trust of India (WTI)</p>
+            <p className='text-slate-400'>An NGO dedicated to protecting India’s wildlife and habitats through crisis response, species recovery, and securing animal corridors for safe movement.</p>
         </div>
         
         <RecentMessages/>

@@ -1,19 +1,47 @@
 import { BadgeCheck, BookMarked, BookMarkedIcon, Heart, MessageCircle } from 'lucide-react'
 import React, { useState } from 'react'
 import moment from 'moment'
-import { dummyUserData } from '../assets/assets'
 import { useNavigate } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import { useAuth } from '@clerk/clerk-react'
+import api from '../api/axios.js'
+import toast from 'react-hot-toast'
 
 const PostCard = ({post}) => {
 
     const postWithHashtags = post.content.replace(/(#\w+)/g, '<span class="text-indigo-600">$1</span>')
 
     const [likes,setLikes] = useState(post.likes_count)
-    const currentUser = dummyUserData
+    const currentUser = useSelector((state) => state.user.value)
+    const {getToken} = useAuth()
 
     const navigate = useNavigate()
 
-    const handleLike = async() => {}
+    const handleLike = async() => {
+      try {
+        const {data} = await api.post(`/api/post/like`, {postId: post._id},
+          {headers: {Authorization: `Bearer ${await getToken()}`}}
+        )  
+
+        if(data.success){
+          toast.success(data.message)
+          setLikes(prev => {
+            if(prev.includes(currentUser._id)){
+              return prev.filter(id=> id!== currentUser)
+            }
+            else{
+              return [...prev, currentUser._id]
+            }
+          })
+        }
+        else{
+          toast(data.message)
+        }
+      } 
+      catch (error) {
+        toast.error(error.message)
+      }
+    }
 
   return (
     <div className='bg-white rounded-xl shadow p-4 space-y-4 w-full max-w-2xl'>
@@ -46,15 +74,6 @@ const PostCard = ({post}) => {
         <div className='flex items-center gap-1'>
             <Heart className={`w-4 h-4 cursor-pointer ${likes.includes(currentUser._id) && 'text-red-500 fill-red-500'}`} onClick={handleLike}/>
             <span>{likes.length}</span>
-        </div>
-
-        <div className='flex items-center gap-1'>
-            <MessageCircle className={`w-4 h-4 cursor-pointer ${likes.includes(currentUser._id) && 'text-red-500 fill-red-500'}`} onClick={handleLike}/>
-            <span>{12}</span>
-        </div>
-
-        <div className='flex items-center gap-1'>
-            <BookMarkedIcon className={`w-4 h-4 cursor-pointer ${likes.includes(currentUser._id) && 'text-red-500 fill-red-500'}`} onClick={handleLike}/>
         </div>
       </div>
     </div>

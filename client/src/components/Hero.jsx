@@ -3,10 +3,13 @@ import HeroImg from '../assets/project_images/wild_hero.jpg'
 import { motion, useViewportScroll, useTransform, delay } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
+import { useUser } from '@clerk/clerk-react'
 
 const Hero = () => {
     const { scrollY } = useViewportScroll()
     const y = useTransform(scrollY, [0, 500], [0, 100])
+
+    const { isSignedIn } = useUser()
 
     const navVariants = {
         hidden: { opacity: 0, y: -20 },
@@ -60,7 +63,7 @@ const Hero = () => {
                         WILDLIFE HUB
                     </motion.div>
                     <div className="ml-auto flex space-x-6 md:space-x-14 text-lg">
-                        {['Species', 'News', 'Parks','Favorites','Games', 'About'].map((text, i) => (
+                        {['Species', 'News', 'Parks', 'Favorites', 'Games', 'About'].map((text, i) => (
                             <motion.div key={i} custom={i} variants={linkVariants} initial="hidden" animate="visible">
                                 <Link
                                     className="hover:underline hover:text-white hover:cursor-pointer transition-all duration-300"
@@ -70,18 +73,28 @@ const Hero = () => {
                                             : text === 'Species'
                                                 ? '/animals'
                                                 : text === 'Favorites'
-                                                ? '/favorites'
-                                                : text === 'Parks'
-                                                    ? '/parks&sancturies'
-                                                    : text === 'News'
-                                                        ? '/news'
-                                                        : '/about-us'
+                                                    ? '/favorites'
+                                                    : text === 'Parks'
+                                                        ? '/parks&sancturies'
+                                                        : text === 'News'
+                                                            ? '/news'
+                                                            : '/about-us'
                                     }
                                 >
                                     {text}
                                 </Link>
                             </motion.div>
                         ))}
+
+                        <motion.div variants={linkVariants} initial="hidden" animate="visible">
+                            <Link
+                                to={isSignedIn ? '/community' : '/sign-in'}
+                                className="px-4 py-2 rounded-full bg-white text-[#074240] font-semibold hover:bg-white/80 transition-all duration-300 whitespace-nowrap"
+                            >
+                                {isSignedIn ? 'Community' : 'Join Community'}
+                            </Link>
+                        </motion.div>
+
                     </div>
                 </motion.nav>
 
