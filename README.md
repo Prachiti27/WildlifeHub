@@ -1,6 +1,3 @@
-Perfect! Based on your folder structure and the fact that you are using **Redux**, here’s an **updated README.md** tailored for your project:
-
----
 
 # 🐾 WildLife Hub
 
@@ -173,12 +170,6 @@ npm run dev
 * Gamification with rewards and badges
 * Integration with IoT-based trackers
 * Mobile app using Flutter
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Fork the repository and submit pull requests.
 
 ---
 
